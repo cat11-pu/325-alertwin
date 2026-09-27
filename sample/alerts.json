@@ -1,0 +1,14 @@
+{
+  "budget": 1,
+  "window": 10,
+  "tick_error_code": "E_DUP_TICK",
+  "key_error_code": "E_BAD_KEY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "alerts": [], "last": [], "suppressed": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "alert", "key": "a", "at": 5 },
+    { "id": 2, "kind": "alert", "key": "a", "at": 8 },
+    { "id": 3, "kind": "alert", "key": "b", "at": 9 },
+    { "id": 4, "kind": "alert", "key": "a", "at": 20 }
+  ]
+}
